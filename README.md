@@ -11,11 +11,12 @@ identify every important point of the residence? It could be fun! It's like the 
 I proposed it to one of my teachers and that is how i have end up doing this proyect.
 
 ## The Neural Network
-Actually, the Neural Network works... badly.
+45% accuracy
 
-It only has a 25% of accuracy and has overfitting.
+Every day better.
 
-And it has other problems i will solve in the future... But i think i will finish it in time.
+In this last commit i have use small images (96x54, in last experiments i used ~200x~130) and i have change the prediction code.
+With this i have now a better accuracy, and i will upload a video in next commit with Dynamic tests. But for now i can only update several files.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
