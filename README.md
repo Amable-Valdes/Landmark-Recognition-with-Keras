@@ -11,12 +11,15 @@ identify every important point of the residence? It could be fun! It's like the 
 I proposed it to one of my teachers and that is how i have end up doing this proyect.
 
 ## The Neural Network
-45% accuracy
+52% accuracy
 
 Every day better.
 
-In this last commit i have use small images (96x54, in last experiments i used ~200x~130) and i have change the prediction code.
-With this i have now a better accuracy, and i will upload a video in next commit with Dynamic tests. But for now i can only update several files.
+In the past i had ~200x~130 images, after that 96x54 and now i have decided to work with 128x72 images.
+I think this will be the final dimensions of the images.
+
+I will update in next commits the Jupyter Notebooks. I'm working in a confusion matrix to analize the neural network 
+and in the future i will upload it.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -26,5 +29,9 @@ Neural Network Jupyter Notebooks: one to test the Neural Network on Google Colab
 to test the Neural Network on your own computer desktop (Keras and TensorFlow needed).
 
 Also, you have a .h5 file with the last CNN trained. You can load it with Keras.
+
+In the "Dynamic Tests" folder you can watch the video where i show the Neural Network working.
+
+If you read any bad translation send me an email with the correct sentence (^.^)
 
 Thanks for read me!
