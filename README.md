@@ -11,15 +11,16 @@ identify every important point of the residence? It could be fun! It's like the 
 I proposed it to one of my teachers and that is how i have end up doing this proyect.
 
 ## The Neural Network
-52% accuracy
+73% accuracy
 
 Every day better.
 
-In the past i had ~200x~130 images, after that 96x54 and now i have decided to work with 128x72 images.
-I think this will be the final dimensions of the images.
+![Confusion matrix](https://github.com/Amable-Valdes/Landmark-Recognition-with-Keras/blob/master/others/confusionMatrixWithNorm.PNG)
 
-I will update in next commits the Jupyter Notebooks. I'm working in a confusion matrix to analize the neural network 
-and in the future i will upload it.
+The confusion matrix seens good; now we only have little fails on node 4 and 6, but nothing important.
+
+In the past i had 200x130 images, after that 96x54 and now i have decided to work with 128x72 images.
+I think this will be the final dimensions of the images.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
@@ -30,8 +31,8 @@ to test the Neural Network on your own computer desktop (Keras and TensorFlow ne
 
 Also, you have a .h5 file with the last CNN trained. You can load it with Keras.
 
-In the "Dynamic Tests" folder you can watch the video where i show the Neural Network working.
+In the "dynamic_tests" folder you can watch the videos where i show the Neural Network working.
 
-If you read any bad translation send me an email with the correct sentence (^.^)
+If you read any bad translation in documentation or code send me an email with the correct sentences (^.^)
 
 Thanks for read me!
