@@ -6,9 +6,9 @@
 
 Every day better.
 
-![Confusion matrix](https://github.com/Amable-Valdes/Landmark-Recognition-with-Keras/blob/master/others/confusionMatrixWithNorm.PNG)
+![Confusion matrix](https://github.com/Amable-Valdes/Landmark-Recognition-with-Keras/blob/master/resources/confusionMatrixNorm.png)
 
-## Time to tell a story...
+## Why this project? Time to tell a story......
 Well, I m finishing my master degree in Artificial Inteligent in the "Universidad Politecnica de Madrid" 
 [MUIA](http://www.dia.fi.upm.es/masteria/?q=es/MUIA) and i will present this Neural Network as my final proyect in June.
 I have always liked robots, and in the master degree i had a robots assignature where i had a project 
