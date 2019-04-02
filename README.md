@@ -40,7 +40,7 @@ In these notebooks there are all the code used to train the CNN and you can sele
 In both you can execute the static tests (validation).
 
 ###### neural_network.h5
-You have a .h5 file with the last CNN trained. You can load it with Keras at is showed in the Jupyter Notebooks:
+You have a .h5 file with the last CNN trained. You can load it with Keras as is shown in the Jupyter Notebooks in this way:
 ```
 from keras.models import load_model
 model = load_model(commonURL + 'neural_network.h5')
