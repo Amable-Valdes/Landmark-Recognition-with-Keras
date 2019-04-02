@@ -2,9 +2,11 @@
 
 ## The Neural Network
 95% accuracy on validation (static tests)
+
 87% accuracy on test (dynamic tests)
 
 Classification error = 5%
+
 Test error = 10%
 
 ![Confusion matrix](resources/confusionMatrixNorm.png)
@@ -37,8 +39,12 @@ In these notebooks there are all the code used to train the CNN and you can sele
 
 In both you can execute the static tests (validation).
 
-###### Neural_Network.h5
-You have a .h5 file with the last CNN trained. You can load it with Keras.
+###### neural_network.h5
+You have a .h5 file with the last CNN trained. You can load it with Keras at is showed in the Jupyter Notebooks:
+```
+from keras.models import load_model
+model = load_model(commonURL + 'neural_network.h5')
+```
 
 ## Why this project? Time to tell a story......
 Well, I m finishing my master degree in Artificial Inteligent in the "Universidad Politecnica de Madrid" 
