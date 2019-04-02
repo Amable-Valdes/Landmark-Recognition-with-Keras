@@ -4,9 +4,41 @@
 95% accuracy on validation (static tests)
 87% accuracy on test (dynamic tests)
 
-Every day better.
+Classification error = 5%
+Test error = 10%
 
-![Confusion matrix](https://github.com/Amable-Valdes/Landmark-Recognition-with-Keras/blob/master/resources/confusionMatrixNorm.png)
+![Confusion matrix](resources/confusionMatrixNorm.png)
+
+These are very good results and that is why I have decided to end the training of the network here after 20 epochs and with the training of around ~40.000 images.
+
+It is possible that I publish other projects in the future expanding, with other state-of-the-art 
+techniques (I even have a future project with bounding boxes in mind), what has been done in this project.
+
+## Repository organization
+###### data
+In the data folder you can find all the images i used to train the Neural Network:
+	- Training Images
+	- Validation Images
+
+###### test
+In the "test" folder you can watch the video where i show the Neural Network working.
+
+###### resources
+Resources for this readme, nothing important, the confusion matrix only.
+
+###### Dataset Refinement.ipynb
+All the code used to process and modify the original images is in this notebook.
+
+###### Dynamic Test.ipynb
+All the code used to read a video and test the neural network on it is in this notebook.
+
+###### Neural Network for Desktop.ipynb and Neural Network for Google Colab.ipynb
+In these notebooks there are all the code used to train the CNN and you can select where you can execute then; in your computer or in google colab.
+
+In both you can execute the static tests (validation).
+
+###### Neural_Network.h5
+You have a .h5 file with the last CNN trained. You can load it with Keras.
 
 ## Why this project? Time to tell a story......
 Well, I m finishing my master degree in Artificial Inteligent in the "Universidad Politecnica de Madrid" 
@@ -19,16 +51,10 @@ identify every important point of the residence? It could be fun! It's like the 
 I proposed it to one of my teachers and that is how i have end up doing this proyect.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+Please, open an issue to discuss what you would like to change.
 
-You have the data folder, where there are all the images i used to train the Neural Network, and you have 2 
-Neural Network Jupyter Notebooks: one to test the Neural Network on Google Colab and other 
-to test the Neural Network on your own computer desktop (Keras and TensorFlow needed).
+If you read any bad translation in documentation or code send me an email with the correct sentences.
 
-Also, you have a .h5 file with the last CNN trained. You can load it with Keras.
+If you believe that some part could be better explained send me an email with your questions.
 
-In the "dynamic_tests" folder you can watch the videos where i show the Neural Network working.
-
-If you read any bad translation in documentation or code send me an email with the correct sentences (^.^)
-
-Thanks for read me!
+Thanks for read me! (^.^)

@@ -1,0 +1,3 @@
+The original videos were too heavy to be added to the repository, but I will leave this here to not break the folder structure.
+
+In this folder would go the videos on which the jupyter notebook would work to check the efficiency of the neural network.
