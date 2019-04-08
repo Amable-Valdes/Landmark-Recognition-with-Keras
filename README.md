@@ -43,10 +43,10 @@ In both you can execute the static tests (validation).
 You have a .h5 file with the last CNN trained. You can load it with Keras as is shown in the Jupyter Notebooks in this way:
 ```
 from keras.models import load_model
-model = load_model(commonURL + 'neural_network.h5')
+model = load_model(path + 'neural_network.h5')
 ```
 
-## Why this project? Time to tell a story......
+## Why this project? Time to tell a story...
 Well, I m finishing my master degree in Artificial Inteligent in the "Universidad Politecnica de Madrid" 
 [MUIA](http://www.dia.fi.upm.es/masteria/?q=es/MUIA) and i will present this Neural Network as my final proyect in June.
 I have always liked robots, and in the master degree i had a robots assignature where i had a project 
