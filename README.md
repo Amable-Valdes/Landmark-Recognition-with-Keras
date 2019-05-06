@@ -1,45 +1,45 @@
 # Landmark-Recognition-with-Keras
 
 ## The Neural Network
-95% accuracy on validation (static tests)
+99% accuracy on validation (static tests)
 
-87% accuracy on test (dynamic tests)
+91% accuracy on test (dynamic tests)
 
-Classification error = 5%
+Classification error = 1%
 
-Test error = 10%
+Test error = 9%
 
 ![Confusion matrix](resources/confusionMatrixNorm.png)
 
-These are very good results and that is why I have decided to end the training of the network here after 20 epochs and with the training of around ~40.000 images.
+These are very good results and that is why I have decided to end the training of the network here after 90 epochs and with the training of around ~40.000 images.
 
 It is possible that I publish other projects in the future expanding, with other state-of-the-art 
 techniques (I even have a future project with bounding boxes in mind), what has been done in this project.
 
 ## Repository organization
-###### data
+##### data
 In the data folder you can find all the images i used to train the Neural Network:
 	- Training Images
 	- Validation Images
+	- Test
 
-###### test
-In the "test" folder you can watch the video where i show the Neural Network working.
+In the "test" folder you can watch the videos where i show the Neural Network working.
 
-###### resources
+##### resources
 Resources for this readme, nothing important, the confusion matrix only.
 
-###### Dataset Refinement.ipynb
+##### Dataset Refinement.ipynb
 All the code used to process and modify the original images is in this notebook.
 
-###### Dynamic Test.ipynb
+##### Dynamic Test.ipynb
 All the code used to read a video and test the neural network on it is in this notebook.
 
-###### Neural Network for Desktop.ipynb and Neural Network for Google Colab.ipynb
+##### Neural Network for Desktop.ipynb and Neural Network for Google Colab.ipynb
 In these notebooks there are all the code used to train the CNN and you can select where you can execute then; in your computer or in google colab.
 
 In both you can execute the static tests (validation).
 
-###### neural_network.h5
+##### neural_network.h5
 You have a .h5 file with the last CNN trained. You can load it with Keras as is shown in the Jupyter Notebooks in this way:
 ```
 from keras.models import load_model
